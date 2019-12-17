@@ -22,7 +22,7 @@
       function() {
         var currentTop = $(window).scrollTop();
         //check if user is scrolling up
-        if (currentTop < this.previousTop) {
+        if (currentTop < this.previousTop-5) {
           //if scrolling up...
           if (currentTop > 0 && $('#mainNav').hasClass('is-fixed')) {
             $('#mainNav').addClass('is-visible');
