@@ -400,4 +400,4 @@ footer p a:hover {
     text-decoration: none;
 }
 
-.navbar .nav { -webkit-transform:translate3d(0px, 0px , 0px)  }
+html, body {height:100%;overflow:auto}
