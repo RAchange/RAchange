@@ -399,3 +399,5 @@ footer p a:hover {
     color: #9f26aa;
     text-decoration: none;
 }
+
+.navbar .nav { -webkit-transform:translate3d(0px, 0px , 0px)  }
