@@ -31,11 +31,11 @@
         });
     });
     $(document).ready(function(){
-      $("a[class='languageen']").click(function(){
-        $('[data-include]')='profile'
+      $("a[href='#lang-en']").click(function(){
+        $('[data-include]').val('profile')
       });
-      $("a[class='languagecn']").click(function(){
-        $('[data-include]')='profile-cn'
+      $("a[href='#lang-cn']").click(function(){
+        $('[data-include]').val('profile-cn');
       });
     })
 </script>
