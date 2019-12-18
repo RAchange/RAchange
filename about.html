@@ -32,10 +32,10 @@
     });
     $(document).ready(function(){
       $("a[href='#lang-en']").click(function(){
-        $('[data-include]').val('profile')
+        $('#origin-content').val('data-include','profile')
       });
       $("a[href='#lang-cn']").click(function(){
-        $('[data-include]').val('profile-cn');
+        $('#origin-content').val('data-include', 'profile-cn');
       });
     })
 </script>
@@ -89,7 +89,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-        <div data-include="profile"></div>
+        <div id="origin-content" data-include="profile"></div>
       </div>
     </div>
   </div>
